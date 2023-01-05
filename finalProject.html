@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Factory</title>
+	<link rel="stylesheet" type="text/css" href="finalprojects.css">
+	<script src="javaScriptFinalProject.js"></script>
+</head>
+<body>
+	<div id="main" style="position: fixed; background-color: white; width: 100%; ">
+<a href="#" id="artFact"> 
+	 art factory</a>
+<nav id="nav">
+	<a id="a" href="#">home</a>
+	<a id="a" href="#">about</a>
+	<a id="a" href="#">services</a>
+	<a id="a" href="#">frequently questions</a>
+	<a id="a" href="#">blog</a>
+	<a id="a" href="#">contact us</a>
+</nav>
+<div class="scrollindicator">
+    <div class="scrollbar" id="myBar"></div>
+  </div>
+</div>
+
+<div id="bannerimg">
+	<img src="image/banner-bg.png"  alt="photo" id="banner">
+	<div id="head"><h2 id="Art">Art Factory is free<br><b>for YOU</b></h2>	
+		<p id="ava">This template is available for 100% free of charge on TemplateMo.<br>
+		Download, modify and use this for your business website.</p>
+		<button onclick="reloadPage();" id="button">find out more</button>
+<div id="slider-icon"><img id="sicon" src="image/slider-icon.png"></div>
+
+</div>
+<div id="leftImagediv"><img id="left-image" src="image/left-image.png"></div>
+<div id="viavmus"><h1 id="viavmus1">Vivamus sodales nisi id ante<br>molestie venenatis</h1>
+<p id="template">This template is <span style="color: #9400D3;"><a href="#" style="text-decoration: none;"> last update on 20 August 2019</a></span> for<br> main menu drop-down arrow and sub menu text 
+color. Duis auctor dolor eu scelerisque vestibulum. <br>Vestibulum lacinia, nisl sit amet tristique<br>condimentum.</p>
+<br>
+<p id="template">Sed a consequat velit. Morbi	lectus sap1ien,<br> vestibulum et sapien sit amet, ultrices malesuada
+odio. Donec non quam euismod, mattis dui a, ultrices<br>nisi. </p>
+<button onclick="reloadPage();" id="button1">Discover More</button>
+ </div>
+
+
+<div id="disk"><img src="image/right-image.png"></div>
+ <div id="diskk">
+ 	<h1 id="diss">Curabitur aliqum eget tellus id porta</h1>
+ 	<br>
+ 	<p id="dii">Porin justo sapien, posuere sucpicit tortor in, fermentum mattis elit.<br>
+ 	Aenean in feugiat purus. </p>
+ 	<br><br>
+ 	<img id="iconss" src="image/about-icon-01.png"><h2 id="dis"> Nulla ultricies risus quis risus</h2>
+ 	<p id="di">You can use this website template for<br>
+ 	 commerical or non-commerical purposes.</p>
+ 	 <img id="iconss" src="image/about-icon-02.png"><h2 id="dis">Donec conseqant commdo<br> purus</h2>
+ 	 <p id="di">You have no right to re-distribute this<br> template as a downloadable ZIP file on<br>
+ 	 any website.</p><br>
+ 	 <img id="iconss" src="image/about-icon-03.png"><h2 id="dis"> Sed placerat sollicitudin<br> mauris</h2>
+ 	 <p id="di">If you have any question or comment, <br>please <span style="color:#9400D3;">
+ 	 	<a href="#" style="text-decoration: none;" > contact</a></span> us on TemplateMo.</p>
+ </div>
+ 
+	<div id="container">
+<div id="d1">
+	<img src="image/service-icon-01.png" id="img1">
+    <h2 id="firstbox">First Box Service</h2>
+    <p id="ipsum">ipsum dolor sit amet, 
+     adipisicing elit, <br>tempor
+      incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam,
+    quis nostrud exercitation</p><br>
+     <button onclick="reloadPage();" id="bt1">Read More</button>
+</div>
+<div id="d2">
+	<img src="image/service-icon-03.png" id="img3" class="k">
+	<h2 id="firstbox">Third Box Service</h2>
+	<p id="ipsum2">ipsum dolor sit amet, 
+    adipisicing elit,<br>tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam.</p>
+    <br><br>
+	<button onclick="reloadPage();" id="bt3">More Details</button>
+</div>
+
+<div id="d3">
+	<img src="image/service-icon-02.png" id="img2" >
+	<h2 id="firstbox1">Second Box Service</h2>
+	<p id="ipsum1">ipsum dolor sit amet, 
+     adipisicing elit,tempor
+      incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+    quis nostrud exercitation. 
+   </p>
+   <br>
+	<button onclick="reloadPage();" id="bt2">Discover More</button>
+</div>
+<div id="dots">
+	<button id="1" onclick="activate(1)" style="
+	display: inline-block;
+	height: 10px;
+    width: 10px;
+    background-color: #FFFAFA;
+    border-radius: 50%;
+    opacity: 2;
+    border-style: none;"></button>
+	<button id="2" onclick="activate(2)" style="
+	display: inline-block;
+	height: 10px;
+    width: 10px;
+    background-color: #FFFAFA;
+    border-radius: 50%;
+    opacity: 2;
+    border-style: none;"></button>
+	<button id="3" onclick="activate(3)" style="
+	display: inline-block;
+	height: 10px;
+    width: 10px;
+    background-color: #FFFAFA;
+    border-radius: 50%;
+    opacity: 2;
+    border-style: none;"></button>
+</div>
+</div>
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <div id="modal-content"></div>
+</div>
+<div id="Questineer">
+	<p id="Asked">Frequently Asked Questions</p>
+	<p id="ask">Viva  vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.<br>
+		deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
+</div>
+<div id="formQustion">
+	<h2 id="h23"> harum quidem rerum expedita distinctio<br>
+	 omnis dolor repellendus</h2>
+	 <p id="pp">Temporibus autem quibusdam et aut officiis debitis<br> aut rerum necessitatibus saepe eveniet ut et voluptates <br>repudiandae sint et molestiae non recusandae,<br> Itaque earum rerum hic.</p>
+	 <br>
+	 <p id="pp">At vero eos et accusamus iusto odio dignissimos ducimus<br> qui blanditiis praesentium voluptatum atque corrupti quos<br> dolores et quas molestias sint occaecati non provident, <br>similique sunt in culpa qui officia deserunt mollitia.</p>
+	 <label>Email: <a href="#" id="email">email@company.com</a></label><br><br>
+	 <button onclick="reloadPage();" id="button23">Contact Us</button>
+</div>
+<div id="Answer">
+	<details>
+	<summary id="h33" style="text-decoration: none;">First Common Question</summary>
+<p id="pp">First Question</p>
+</details><br>
+	<details>
+	<summary id="h33" style="text-decoration: none;">Second Question Answer</summary>
+<p id="pp">Second Question</p>
+</details><br>
+	<details>
+	<summary id="h33" style="text-decoration: none;">Third Answer for you</summary>
+<p id="pp">Third Question</p>
+</details><br>
+	<details>
+	<summary id="h33" style="text-decoration: none;">Fourth Qusetion Asked</summary>
+<p id="pp">Fourth Question</p>
+</details><br>
+	<details>
+	<summary id="h33" style="text-decoration: none;">Fifth Ever Qusetion</summary>
+<p id="pp">Fifth Question</p>
+</details><br>
+	<details>
+	<summary id="h33" style="text-decoration: none;">Sixth Sense Qusetion</summary>
+<p id="pp">Sixth Question</p>
+</details><br>
+</div>
+<div id="form">
+	<h3 id="headform">ART FACTORY</h3><br>
+	<nav id="navform">
+		<a href="#" id="linkform">Home</a>
+		<a href="#" id="linkform">About</a>
+		<a href="#" id="linkform">Services</a>
+		<a href="#" id="linkform">Contact</a>
+	</nav><br>
+	<form id="forrm" action="#" method="post" onsubmit=" return validation()" required name="myform">
+		<input type="text" name="name" placeholder="Name" id="nameEmail"><br>
+		<input type="email" name="email" placeholder="Email" id="nameEmail"><br>
+		<textarea  placeholder="Message" id="message"> </textarea><br>
+		<input type="submit" name="sumbit" value="Send" id="send">
+	</form>
+	<div id="dotform">
+		<span class="dotss"><a href="#">
+			<img src="image/facebookk.jpg" id="facebookk" height="70" width="70"></a>
+		</span>
+	    <span class="dotss"><a href="#">
+	    	<img src="image/instagram.jpg" id="facebookk" height="70" width="70"></a> 
+	    </span>
+	    <span class="dotss"><a href="#">
+	    	<img src="image/twitter.jpg" id="facebookk" height="70" width="70"></a>
+	    </span>
+	</div>
+
+</div>
+<footer>
+	<div id="category">
+		<p style="color: white; font-size: 25px;">Category</p><br><br>	
+		<ul id="male">
+			<li id="Female"><a href="#" id="Female">Male</a></li>
+			<li id="Female"><a href="#" id="Female">Female</a></li>
+			<li id="Female"><a href="#" id="Female">Fashion</a></li>
+			<li id="Female"><a href="#" id="Female">Shoes</a></li>
+		</ul>
+
+	</div>
+
+	<div id="company">
+		<p style="color: white; font-size: 25px;">Company</p><br><br>	
+		<ul id="male">
+			<li id="Female"><a href="#" id="Female">About</a></li>
+			<li id="Female"><a href="#" id="Female">News</a></li>
+			<li id="Female"><a href="#" id="Female">FAQ</a></li>
+			<li id="Female"><a href="#" id="Female">Contact</a></li>
+		</ul>
+
+	</div>
+
+	<div id="address">
+		<p style="color: white; font-size: 25px;">Address</p><br><br>	
+		<ul id="male">
+			<li id="Female"><a href="#" id="Female"> 200, Green block, NewYork</a></li>
+			<li id="Female"><a href="#" id="Female">+10 456 267 1678</a></li>
+			<li id="Female"><a href="#" id="Female">Contact89@Winter.Com</a></li>
+		</ul>
+
+	</div>
+
+	<div id="Newsletter">
+		<p style="color: white; font-size: 25px;">Newsletter</p><br><br>	
+		<ul id="male">
+			<li id="Female">
+				<button id="subscribe">
+					<input type="text" name="email" placeholder="Email Address" id="input">
+					Subscribe
+				</button> </li>
+			<li><div id="soicalm">
+		<span class="media"><a href="#">
+			<img src="image/facebookk.jpg" id="facebookk" height="50" width="50"></a></span>
+	    <span class="media"><a href="#">
+	    	<img src="image/instagram.jpg" id="facebookk" height="50" width="50"></a></span>
+	    <span class="media"><a href="#">
+	    	<img src="image/twitter.jpg" id="facebookk" height="50" width="50"></a></span>
+	</div></li>
+		</ul>
+		<button id="top" onclick="toTop()">Scroll To Top</button>
+
+	</div>
+</footer>
+	<script type="text/javascript">
+		var modal = document.getElementById("myModal");
+        var box = document.getElementById("d1");
+        var modalBox = document.getElementById("modal-content");
+
+box.onclick = function(){
+  modal.style.display = "block";
+  modalBox.innerHTML = this.innerHTML
+   modalBox.style.backgroundColor = "white";
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+var modal = document.getElementById("myModal");
+        var box = document.getElementById("d2");
+        var modalBox = document.getElementById("modal-content");
+
+box.onclick = function(){
+  modal.style.display = "block";
+  modalBox.innerHTML = this.innerHTML
+   modalBox.style.backgroundColor = "white";
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+var modal = document.getElementById("myModal");
+        var box = document.getElementById("d3");
+        var modalBox = document.getElementById("modal-content");
+
+box.onclick = function(){
+  modal.style.display = "block";
+  modalBox.innerHTML = this.innerHTML
+   modalBox.style.backgroundColor = "white";
+}
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+	</script>
+</body>
+</html>
